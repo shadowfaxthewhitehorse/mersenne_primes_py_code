@@ -21,6 +21,12 @@ def prime(a):
  
 print(prime(103))
 
+#
+# From the University of St. Andrew's biography of Raphael Robinson:
+#
+# https://mathshistory.st-andrews.ac.uk/Biographies/Robinson_Raphael/
+#
+# Begin quote:
 # As we mentioned above, Robinson worked in number theory and 
 # he used the earliest computers to obtain results. He coded 
 # the Lucas test for primality and tested whether 2^{n} - 1 was 
@@ -33,7 +39,12 @@ print(prime(103))
 # 2281, for which 2^{n} - 1 is a prime. At the time that 
 # Robinson wrote this paper the last five of these primes 
 # were larger than any that had previously been found.
-
+# End quote:
+#
+# I have attempted the same thing in Python.
+# It took me all of one hour to get this code completed.
+# That proves to us the power of data science.
+#
 def miller_rabin(n, k):
 
     # Implementation uses the Miller-Rabin Primality Test

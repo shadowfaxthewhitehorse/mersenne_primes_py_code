@@ -9,6 +9,7 @@ Created on Wed Aug 12 17:26:23 2020
 # IMPORTANT NOTE:
 #
 # please note that most of the code in this repository is private.
+# this is one of the few files that are public.
 #
 # miller_rabin() function courtesy Ayrx:
 #
